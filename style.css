@@ -1,0 +1,25 @@
+:root {
+    --main-color: #201d43;
+    --secondary-color: #B4AEFA;
+    --accent-color: #ea5864;
+    --text-color: #FFF;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    background: var(--main-color);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p, a {
+    color: var(--text-color);
+}

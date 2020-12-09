@@ -1,25 +1,52 @@
 :root {
     --main-color: #201d43;
+    --white: #FFF;
     --secondary-color: #B4AEFA;
     --accent-color: #ea5864;
-    --text-color: #FFF;
+    --text-color: #201d43;
+
+    --text-size-xl: 3rem;
+    --text-size-lg: 2rem;
+    --text-size-md: 1rem;
+    --text-size-sm: .875rem;
 }
 
+html {
+    font-size: calc(1em + .5vw);
+}
 
 body {
     margin: 0;
     padding: 0;
     font-size: 1rem;
-    background: var(--main-color);
-    font-family: Arial, Helvetica, sans-serif
+    background: var(--white);
+    font-family: Roboto, Helvetica, sans-serif;
 }
-
 
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 h1, h2, h3, p, a {
     color: var(--text-color);
+}
+
+.site-name {
+    font-size: var(--text-size-xl);
+    color: var(--white);
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.main-header {
+    padding: 4rem 0;
+    background-color: var(--main-color);
+}
+
+.logo  {
+    max-width: 100px;
 }
